@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.bodyBacgraound {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.main {
+  background-image: url(Images/Background-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  color: white;
+}
+
+.main .d-flex .text-white {
+  border: solid 1px #fff;
+  margin-left: 2px;
+}
+
+.overlay {
+  background-color: rgba(3, -2, 0, 0.7);
+  height: 100%;
+  margin: -15px;
+  padding: 20px;
+
+}
+
+.navbar {
+  padding: 3rem 7rem;
+}
+
+.netflix-logo {
+  height: 150px;
+}
+
+.language-select {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-right: 1rem;
+}
+
+.language-select option {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  margin-top: 10%;
+}
+
+.email-input {
+  max-width: 450px;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.form-select {
+  width: 0px;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+.btn-danger {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.sepration {
+  height: 5px;
+  margin-top: 15px;
+  background: #4c4c4ce2;
+}
+
+.Tv-watch {
+  background: black;
+}
+
+.col-lg-6 video {
+  position: absolute;
+  right: 194px;
+  width: 394px;
+  margin-top: 84px;
+}
+
+
+/* .download-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+
+.phone-mockup {
+  position: relative;
+}
+
+.phone-mockup img {
+  max-width: 100%;
+}
+
+.download-card {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  border: 1px solid #333;
+  border-radius: 8px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.download-card img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.download-card .download-info {
+  flex-grow: 1;
+}
+
+.container {
+  /* text-align: center; */
+  padding: 50px;
+}
+.device-images img {
+  max-width: 100%;
+  height: auto;
+}
+.device-images .col {
+  margin-bottom: 20px;
+}
+.text-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.text-subtitle {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.default-ltr-cache-1626rqb {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.create-music{
+  background: black;
+}
+
+.faq-section .accordion-item{
+  margin: 12px;
+  padding: 0.6rem;
+  background: #000;
+  color: #fff;
+}
+.faq-section .accordion-button{
+  background: #474747;
+  color: #fff;
+}
+
+.footer {
+  padding: 40px 0;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
